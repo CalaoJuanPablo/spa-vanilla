@@ -1,0 +1,14 @@
+{
+  "name": "vanilla-spa",
+  "version": "1.0.0",
+  "description": "Single Page Application with VanillaJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vanilla-js"
+  ],
+  "author": "Juan Pablo Calao <me@calaojuanpablo.com>",
+  "license": "MIT"
+}
