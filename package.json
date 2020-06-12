@@ -1,14 +1,24 @@
 {
-  "name": "vanilla-spa",
-  "version": "1.0.0",
-  "description": "Single Page Application with VanillaJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "vanilla-js"
-  ],
-  "author": "Juan Pablo Calao <me@calaojuanpablo.com>",
-  "license": "MIT"
+	"name": "vanilla-spa",
+	"version": "1.0.0",
+	"description": "Single Page Application with VanillaJS",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server",
+		"build": "webpack --modo production"
+	},
+	"keywords": [
+		"vanilla-js"
+	],
+	"author": "Juan Pablo Calao <me@calaojuanpablo.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.10.2",
+		"babel-loader": "^8.1.0",
+		"eslint": "^7.2.0",
+		"html-webpack-plugin": "^4.3.0",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0"
+	}
 }
