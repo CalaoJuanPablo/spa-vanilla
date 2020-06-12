@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack-dev-server",
-		"build": "webpack --modo production"
+		"build": "webpack --mode production"
 	},
 	"keywords": [
 		"vanilla-js"
